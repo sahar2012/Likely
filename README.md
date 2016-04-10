@@ -18,7 +18,7 @@ These become our predicted number of likes.
   2. **Testing Data** - This displays the results of the algorithm which was trained by a dataset of 180 posts on 20 posts which were used for testing.
   3. **New Status** - The user can enter any status and likely will predict the number of likes for it.
 ## RESULT
-We took different sets of 20 posts for testing and the rest 180 for training our app; on an average we got *67.56%* of the posts within ±5 range of the actual value. The discrepancies were mostly noticed in the posts which were quite Random, posts which are very unique from all the other posts. For eg: “Nalin Gupta changed his profile picture”, was a one time occurrence in the 200 posts, and had 6 times the likes than any other post. Such random occurrences could not be predicted correctly. 
+We took different sets of 20 posts for testing and the rest 180 for training our app; on an average we got *67.56%* of the posts within ±5 range of the actual value. The discrepancies were mostly noticed in the posts which were quite Random, posts which are very unique from all the other posts. For eg: “Nalin Gupta changed his profile picture”, was a one time occurrence in the 200 posts, and had 6 times the likes than any other post. Such random occurrences could not be predicted correctly.  <br>
 ## MILESTONES
 **Implemented TF-IDF Algorithm**
 We were successfully able to implement the TF-IDF algorithm. The basic structure we used to implement the algorithm was: 
