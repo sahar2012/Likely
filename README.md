@@ -20,12 +20,12 @@ These become our predicted number of likes.
 ## RESULT
 We took different sets of 20 posts for testing and the rest 180 for training our app; on an average we got *67.56%* of the posts within ±5 range of the actual value. The discrepancies were mostly noticed in the posts which were quite Random, posts which are very unique from all the other posts. For eg: “Nalin Gupta changed his profile picture”, was a one time occurrence in the 200 posts, and had 6 times the likes than any other post. Such random occurrences could not be predicted correctly. 
 ## MILESTONES
-### Implemented TF-IDF Algorithm
+**Implemented TF-IDF Algorithm**
 We were successfully able to implement the TF-IDF algorithm. The basic structure we used to implement the algorithm was: 
-<p align="center">tfidf (t,d,D) = tf (t,d) x idf (t,D)
-tf (t,d) = occurrences of t in dtotal terms in d
-idf (t,D) = logN|dD : tT|
-where N is the number of Documents in the corpus. </p>
-### FBAuth Integration
+<p align="center">tfidf (t,d,D) = tf (t,d) x idf (t,D) <br>
+tf (t,d) = occurrences of t in dtotal terms in d <br>
+idf (t,D) = logN|dD : tT| <br>
+where N is the number of Documents in the corpus. </p><br>
+**FBAuth Integration**
 FBAuth has been implemented as well. Any user can login with our app, and we will get an access token linked to the user's Facebook Information. This is then used to prompt the user to write a status and consequently predict the likes on it based on the previous data. *[Note: This will not be working right now and FB has blocked our app and did not grant permissions].*
 
